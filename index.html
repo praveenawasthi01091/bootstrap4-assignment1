@@ -26,7 +26,7 @@
             <link rel="stylesheet" href="css/style1.css">
     </head>
 
-    <body style="background-color: rgb(185, 185, 182);">
+    <body >
         <!-- header content-->
         <header  >
             <nav class="navbar navbar-expand-lg navbar-light bg-light head1" >
@@ -34,7 +34,7 @@
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                     </button>
-                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <div class="collapse navbar-collapse " id="navbarNavDropdown">
                         <ul class="navbar-nav">
                             <li class="nav-item active">
                             <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
@@ -51,7 +51,24 @@
                             <li class="nav-item">
                                     <a class="nav-link" href="#123">Shop</a>
                             </li>
+                               <!-- dropdown menu-->
+                               <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                  Packages
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                  <a class="dropdown-item" href="#">By Destination</a>
+                                  <a class="dropdown-item" href="#">By Region</a>
+                                  <a class="dropdown-item" href="#">By Duration</a>
+                                </div>
+                              </li>
                         </ul>
+                            <!-- form -->
+                           
+                            <form class="form-inline my-2 my-lg-0" action="#" >
+                              <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                              <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                            </form>
                     </div>
                 </nav>
             </header>
@@ -91,7 +108,7 @@
                 <div class="container-fluid">
                     <div class="row">
                         <div class="col-sm-4" >
-                            <img src="img/pic4.jpeg" alt="iot" style="width: 100%; height: 400px;">
+                            <img class=" img-thumbnail"src="img/pic4.jpeg" alt="iot" style="width: 100%; height: 400px;">
                             <h3>Our Dream</h3>
                             <p> Page heading and nav bar
                                 3 Column section.
@@ -106,7 +123,7 @@
                         </div>
                 
                         <div class="col-sm-4">
-                            <img src="img/pic5.jpeg" alt="iot" style="width: 100%; height: 400px;">
+                            <img class=" img-thumbnail" src="img/pic5.jpeg" alt="iot" style="width: 100%; height: 400px;">
                             <h3>Our Mission</h3>
                             <p> Page heading and nav bar
                                 3 Column section.
@@ -120,7 +137,7 @@
                             </p>
                         </div>
                         <div class="col-sm-4">
-                            <img src="img/pic3.png" alt="iot" style="width: 100%; height: 400px;">
+                            <img class=" img-thumbnail" src="img/pic3.png" alt="iot" style="width: 100%; height: 400px;">
                             <h3>Why choose us</h3>
                             <p> Page heading and nav bar
                                 3 Column section.
@@ -151,6 +168,18 @@
 
                 <!-- spacing-->
                 <div id="ht"></div>
+                <div class="jumbotron jumbotron-fluid">
+                    <div class="container">
+                      <h1>Why IoT ?</h1>
+                      <p>A thing in the internet of things can be a person with 
+                          a heart monitor implant, a farm animal with a biochip transponder,
+                           an automobile that has built-in sensors to alert the driver when
+                            tire pressure is low or any other natural or man-made object that 
+                            can be assigned an IP address and is able to transfer data over a network.</p>
+                    </div>
+                  </div>
+                 <!-- spacing-->
+                 <div id="ht"></div>
 
                 <!--  vertically divide-->
                 <div id="124" class="container-fluid">
