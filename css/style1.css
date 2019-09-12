@@ -5,7 +5,7 @@
     
 }
 
-#ht
+.ht
 {
     height: 100px;
 }
@@ -30,6 +30,60 @@
     }
    
   }
+  @media only screen and  (max-width: 768px)
+  {
+      body {
+          font-family: monospace;
+      }
+  }
+
+  
+
+  @media (max-width: 800px) {
+    .column {
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media (max-width: 600px) {
+    .column {
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
+
+  #yt-vi
+  {
+    align-content: center;
+  }
+  .cor-img
+  {
+    height:450px;
+  }
+
+  @media (max-width)
+  {
+    .cor-img
+    {
+      height:300px;
+    }
+  }
+
+ 
+ .mar-top
+ {
+    margin-top: 4rem;
+
+ }
+
+ .mar-bt
+ {
+   margin-bottom: 3rem;
+ }
+
+
 
   
 
